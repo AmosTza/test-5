@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <h2>What Can JavaScript Do?</h2>
+        <p id="demo">JavaScript can change HTML content.</p>
+        <input type="button" value="Click Me!" id="change_text">
+        <script>
+            function hello() {
+                document.getElementById("demo").innerHTML = "Hello JavaScript!";
+            }
+            document.getElementById("change_text").addEventListener("click", hello);
+        </script>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <h2>What Can JavaScript Do?</h2>
+        <p>JavaScript can change HTML attributes.</p>
+        <p>In this case JavaScript changes the src (source) attribute of an image.</p>
+        <input type="button" value="Turn on the light" id="on">
+        <img id="myImage" src="pic_bulboff.gif" style="width:100px">
+        <input type="button" value="Turn off the light" id="off">
+        <script>
+            function on() {document.getElementById("myImage").src = "pic_bulbon.gif";}
+            function off() {document.getElementById("myImage").src = "pic_bulboff.gif";}
+            document.getElementById("on").addEventListener("click", on);
+            document.getElementById("off").addEventListener("click", off);
+        </script>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> 
+
+</script>
+	
+
+    <head
+	</html>
